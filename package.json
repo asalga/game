@@ -4,6 +4,7 @@
   "description": "",
   "main": "Renderer.js",
   "scripts": {
+    "build": "node run rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/asalga/game#readme",
   "dependencies": {
-    "howler": "^2.2.0",
-    "rollup": "^2.10.0"
+    "howler": "^2.2.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.10.5"
   }
 }
